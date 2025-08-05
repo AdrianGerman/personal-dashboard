@@ -1,5 +1,7 @@
 import QuickNotes from "./components/QuickNotes"
 import DailyHabits from "./components/DailyHabits"
+import WeatherWidget from "./components/WeatherWidget"
+import CalendarWidget from "./components/CalendarWidget"
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
       <main className="p-6 grid gap-6 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
         <QuickNotes />
         <DailyHabits />
+        <WeatherWidget />
+        <CalendarWidget />
       </main>
     </div>
   )
