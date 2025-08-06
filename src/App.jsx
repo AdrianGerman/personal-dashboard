@@ -2,6 +2,7 @@ import QuickNotes from "./components/QuickNotes"
 import DailyHabits from "./components/DailyHabits"
 import WeatherWidget from "./components/WeatherWidget"
 import CalendarWidget from "./components/CalendarWidget"
+import NewsWidget from "./components/NewsWidget"
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <DailyHabits />
         <WeatherWidget />
         <CalendarWidget />
+        <NewsWidget />
       </main>
     </div>
   )
