@@ -3,6 +3,7 @@ import DailyHabits from "./components/DailyHabits"
 import WeatherWidget from "./components/WeatherWidget"
 import CalendarWidget from "./components/CalendarWidget"
 import NewsWidget from "./components/NewsWidget"
+import QuoteWidget from "./components/QuoteWidget"
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <WeatherWidget />
         <CalendarWidget />
         <NewsWidget />
+        <QuoteWidget />
       </main>
     </div>
   )
